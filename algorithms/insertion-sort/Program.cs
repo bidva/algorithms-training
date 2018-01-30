@@ -10,7 +10,7 @@ namespace insertion_sort
     {
         static void Main(string[] args)
         {
-            int[] nums = { 5, 10, 3, 2, 4 };
+               int[] nums = { 5, 10, 3, 2, 4 };
             Console.WriteLine("Before: 5, 10, 3, 2, 4");
             int newValue;
             for (int i = 0; i < nums.Length; i++)

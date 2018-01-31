@@ -18,7 +18,7 @@ namespace TwoIntSum
 
         private static bool TwoIntSum(int[] arr, int value)
         {
-            arr = arr.OrderBy(x => x).ToArray();
+            Array.Sort(arr);
             int p1 = 0;
             int p2 = arr.Length-1;
             while (p1 < p2)
